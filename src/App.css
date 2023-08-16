@@ -1,6 +1,49 @@
 * {
-  margin: 0 auto;
-  max-width: 1280px;
-  padding: 2rem;
-  text-align: center;
+  margin: 0;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+.header-1 h1 {
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  border-bottom: 3px solid black;
+  padding-bottom: 1px;
+}
+
+.header-1 {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-city img {
+  border: solid rgb(0, 0, 0) 2px ;
+  border-radius: 60px;
+  height: 300px;
+  width: 400px;
+  margin: 20px;
+  box-shadow: 0px 0px 40px rgba(70, 69, 69, 0.788);
+}
+
+.Card-city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
