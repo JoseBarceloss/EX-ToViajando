@@ -31,7 +31,7 @@ body {
   justify-content: center;
 }
 
-.Card-city img {
+.card-city img {
   border: solid rgb(0, 0, 0) 2px ;
   border-radius: 60px;
   height: 300px;
@@ -40,7 +40,7 @@ body {
   box-shadow: 0px 0px 40px rgba(70, 69, 69, 0.788);
 }
 
-.Card-city {
+.card-city {
   display: flex;
   flex-direction: column;
   justify-content: center;
